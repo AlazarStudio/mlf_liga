@@ -1,0 +1,60 @@
+.headerBanner {
+    width: 100%;
+    height: 100px;
+}
+
+.headerBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    background-color: #2A0054;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+}
+
+.header_menu_links {
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+
+.header_menu_links_items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.header_menu_links_items li a {
+    color: #FFFFFF;
+    border-bottom: 3px solid transparent;
+    padding: 3px 0;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.header_menu_links_items li a:hover,
+.header_menu_signIn:hover,
+.header_menu_links_items li .active {
+    border-bottom: 3px solid #E5097F;
+}
+
+.header_menu_signIn {
+    color: #FFFFFF;
+    border-bottom: 3px solid transparent;
+    padding: 3px 0;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}

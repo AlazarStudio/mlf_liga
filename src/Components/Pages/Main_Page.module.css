@@ -1,0 +1,35 @@
+.match{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+.matchSlider{
+    width: 1300px;
+    display: flex;
+    gap: 20px;
+}
+
+.matchBtns{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #000;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.matchBtns_item{
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border-radius:  0 10px 10px 0 ;
+    cursor: pointer;
+}
+
+.activBtn{
+    background-color: #E5097F;
+    color: #fff;
+}
