@@ -551,7 +551,7 @@ function Main_Page({ children, ...props }) {
                                     </div>
                                 </div>
 
-                                <div className={classes.stats_block_more}>Подробнее <img src="arrowRight.png" alt="" /></div>
+                                <div className={classes.stats_block_more}>Полный список</div>
                             </div>
                         </div>
                     </div>

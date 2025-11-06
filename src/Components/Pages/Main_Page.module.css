@@ -153,6 +153,8 @@
 }
 
 .stats_block_title {
+    font-size: 20px;
+    font-weight: 600;
     padding: 18px;
     display: flex;
     align-items: center;
@@ -160,28 +162,35 @@
 }
 
 .stats_block_btn {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    color: #E7E7E7;
+    color: #D9D9D9;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #000;
 }
 
 .stats_block_btn:hover{
-    color: #000;
+    color: #fff;
+    background-color: #2A0054;
 }
 
 .activePoint{
-    color: #000;
+    background-color: #2A0054;
+    color: #fff;
 }
 
 .stats_block_more {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 18px;
     display: flex;
     align-items: center;
     gap: 12px;
+    color: #0000B0;
+    cursor: pointer;
 }
 
 .stats_block_tableHead {
