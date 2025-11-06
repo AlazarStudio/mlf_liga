@@ -1,17 +1,18 @@
-.match{
+.match {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 30px;
     position: relative;
 }
-.matchSlider{
+
+.matchSlider {
     width: 1300px;
     display: flex;
     gap: 20px;
 }
 
-.matchBtns{
+.matchBtns {
     position: absolute;
     top: 50%;
     left: 0;
@@ -22,14 +23,249 @@
     gap: 10px;
 }
 
-.matchBtns_item{
+.matchBtns_item {
     padding: 10px 30px;
     background-color: #ffffff;
-    border-radius:  0 10px 10px 0 ;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
 
-.activBtn{
+.activBtn {
     background-color: #E5097F;
     color: #fff;
+}
+
+
+/* ---------------------------- */
+
+.news_and_stats {
+    display: flex;
+    gap: 40px;
+    width: 1300px;
+}
+
+.centerBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.title_block {
+    color: #000058;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.news_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.news {
+    width: 70%;
+}
+
+.stats {
+    width: 30%;
+}
+
+.news_items_elem {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    gap: 12px;
+}
+
+.news_items_elem_img {
+    width: 100%;
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.news_items_elem_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news_items_elem_date {
+    font-size: 11px;
+    color: #888888;
+}
+
+.news_items_elem_title {
+    width: 100%;
+    color: #00002C;
+    font-size: 18px;
+    font-weight: 600;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news_items_elem_desc {
+    font-size: 14px;
+    color: #888888;
+}
+
+.news_items_elem_newInfo {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    background-color: #0000B0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.news_items_elem_newInfo img {
+    width: 11px;
+}
+
+/* ---------------------- */
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.stats_block {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E7E7E7;
+    border-radius: 30px;
+}
+
+.stats_block_title {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats_block_btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #E7E7E7;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.stats_block_btn:hover{
+    color: #000;
+}
+
+.activePoint{
+    color: #000;
+}
+
+.stats_block_more {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.stats_block_tableHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    background-color: #2A0054;
+}
+
+.stats_block_tableHead_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.stats_block_tableHead_num,
+.stats_block_tableHead_games,
+.stats_block_tableHead_points {
+    width: 20px;
+    text-align: right;
+}
+
+
+.stats_block_tableData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.stats_block_tableData:last-child {
+    border: none;
+}
+
+.stats_block_tableData_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.stats_block_tableData_num,
+.stats_block_tableData_games,
+.stats_block_tableData_points {
+    width: 20px;
+    text-align: right;
+}
+
+.stats_block_tableData_club {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.br img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.stats_block_tableData_club img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.stats_block_tableData_points {
+    font-weight: 600;
+}
+
+.sponsors{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.sponsors img{
+    object-fit: contain;
 }
