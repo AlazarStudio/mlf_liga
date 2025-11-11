@@ -2,7 +2,7 @@
     width: 100%;
     /* min-height: 600px; */
     height: fit-content;
-    background: url("footerBack.png");
+    background: url("/footerBack.png");
     background-size: cover;
     background-position: top right;
     margin-top: 40px;

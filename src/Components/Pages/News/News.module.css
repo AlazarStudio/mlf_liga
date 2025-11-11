@@ -1,0 +1,25 @@
+.centerBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    width: 1300px;
+    margin-top: 40px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.newsList {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.newsTitle {
+    color: #000058;
+    font-size: 24px;
+    font-weight: 600;
+}

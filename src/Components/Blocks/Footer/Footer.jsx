@@ -41,10 +41,10 @@ function Footer({ children, ...props }) {
                         <div className={classes.footerBack_top_item_line}>
                             <div className={classes.footerBack_top_item_line_title}>Социальные сети</div>
                             <div className={classes.footerBack_top_item_line_soc}>
-                                <div className={classes.footerBack_top_item_line_soc_block}><img src="tg.png" alt="" /></div>
-                                <div className={classes.footerBack_top_item_line_soc_block}><img src="yt.png" alt="" /></div>
-                                <div className={classes.footerBack_top_item_line_soc_block}><img src="vk.png" alt="" /></div>
-                                <div className={classes.footerBack_top_item_line_soc_block}><img src="tt.png" alt="" /></div>
+                                <div className={classes.footerBack_top_item_line_soc_block}><img src="/tg.png" alt="" /></div>
+                                <div className={classes.footerBack_top_item_line_soc_block}><img src="/yt.png" alt="" /></div>
+                                <div className={classes.footerBack_top_item_line_soc_block}><img src="/vk.png" alt="" /></div>
+                                <div className={classes.footerBack_top_item_line_soc_block}><img src="/tt.png" alt="" /></div>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ function Footer({ children, ...props }) {
                 <div className={classes.footerBack_bottom}>
                     <div className={classes.footerBack_bottom_elem}>© 2001-2025 Молодежная любительская футбольная лига</div>
                     <div className={classes.footerBack_bottom_elem}>Политика обработки персональных данных</div>
-                    <div className={classes.footerBack_bottom_elem}><img src="ru.png" alt="" /></div>
+                    <div className={classes.footerBack_bottom_elem}><img src="/ru.png" alt="" /></div>
                 </div>
             </div>
         </div>
