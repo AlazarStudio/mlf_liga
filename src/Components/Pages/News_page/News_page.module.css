@@ -1,0 +1,150 @@
+.new {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.centerNew {
+    width: 1300px;
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.newLeft {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newRight {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+    color: #888888;
+}
+
+.breadcrumbs a {
+    font-size: 14px;
+    color: #888888;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+
+.newTitle {
+    font-size: 26px;
+    color: #000058;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-top: 20px;
+}
+
+.newShortDesc {
+    color: #00002C;
+    font-size: 14px;
+}
+
+.newDateLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newDateLinks_date {
+    color: #666C78;
+    font-size: 11px;
+}
+
+.newDateLinks_links {
+    display: flex;
+    gap: 10px;
+}
+
+.newDateLinks_links_item {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00005811;
+}
+
+.newDateImg {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.newDateImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.newDateDesc {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #00002C;
+}
+
+.newDatePhotoAuthor {
+    width: 100%;
+    text-align: right;
+    color: #00002C;
+    margin-top: 30px;
+}
+
+.newRight_sameNews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newRight_sameNews_new {
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.newRight_sameNews_new_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% - 120px);
+}
+
+.newRight_sameNews_new_info_date {
+    font-size: 11px;
+    color: #888888;
+}
+
+.newRight_sameNews_new_info_name {
+    font-size: 16px;
+    color: #00002C;
+}
+
+.newRight_sameNews_new_img {
+    width: 90px;
+    height: 75px;
+}
+
+.newRight_sameNews_new_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
